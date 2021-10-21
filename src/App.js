@@ -1,8 +1,11 @@
-import "./App.css";
+import NavBar from "./components/NavBar";
+
+//Styles
+import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
-  return <div>dkam</div>;
+  return <NavBar />;
 };
 
 export default App;
