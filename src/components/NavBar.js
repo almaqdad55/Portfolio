@@ -27,17 +27,22 @@ const NavBar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+                home
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                about me
+                about
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
                 services
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                experience
               </a>
             </li>
             <li className="nav-item">

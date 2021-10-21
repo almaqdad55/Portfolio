@@ -16,7 +16,7 @@ const Services = () => {
       <h1 className="py-5"> My Skills</h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faHtml5} size="3x" />
@@ -33,7 +33,7 @@ const Services = () => {
             </div>
           </div>
           {/*  */}
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faReact} size="3x" />
@@ -49,7 +49,7 @@ const Services = () => {
             </div>
           </div>
           {/*  */}
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faJsSquare} size="3x" />
@@ -64,7 +64,7 @@ const Services = () => {
             </div>
           </div>
           {/*  */}
-          <div className="col-md-3 col-sm-6">
+          <div className="col-lg-3  col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
                 <FontAwesomeIcon className="icon" icon={faSass} size="3x" />
