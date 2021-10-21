@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Roboto Condensed";
+  font-family: "Roboto Condensed" !important;
 }
 
 ////////////////// Navbar /////////////////////
@@ -49,11 +49,12 @@ nav ul li {
   height: 6rem !important;
 }
 
-////////////////// Header /////////////////////
+////////////////// HEADER /////////////////////
 .header-wrapper {
   position: relative;
   background: url(./assests/header-background.svg) no-repeat;
   background-size: cover;
+
   background-position: center;
   height: 90vh;
 }
@@ -102,12 +103,31 @@ nav ul li {
   transition: 0.2s ease-out;
 }
 
-/////////////// Particles JS ///////////////@at-root
+/////////////// Particles JS ///////////////
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+/////////////// ABOUT ME ///////////////
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about-heading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
@@ -124,5 +144,14 @@ nav ul li {
 
   .particles-canvas {
     display: none;
+  }
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+
+  .photo-wrap {
   }
 }
