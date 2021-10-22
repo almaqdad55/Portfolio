@@ -8,6 +8,7 @@ import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Particles from "react-particles-js";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
       <AboutMe />
       <Services />
       <Experience />
+      <Portfolio />
     </React.Fragment>
   );
 };

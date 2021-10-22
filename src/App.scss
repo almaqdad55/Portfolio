@@ -256,6 +256,132 @@ nav ul li {
   font-weight: 900;
 }
 
+//////////////// PORTFOLIO ////////////////
+
+.portfolio-wrapper {
+  background: var(--primary-grey);
+  padding: 3rem 0;
+  border: 5px solid red;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.portfolio-image {
+  width: 16rem;
+
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+///////////////////// TRIAL PORTFOLIO/////////////////////
+.team-grid {
+  color: #313437;
+  background-color: #fff;
+}
+
+.team-grid p {
+  color: #7d8285;
+}
+
+.team-grid h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .team-grid h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.team-grid .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.team-grid .intro p {
+  margin-bottom: 0;
+}
+
+.team-grid .people {
+  padding: 50px 0;
+}
+
+.team-grid .item {
+  margin-bottom: 30px;
+}
+
+.team-grid .item .box {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-grid .item .cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(54, 55, 56, 0.75);
+  transition: opacity 0.15s ease-in;
+  opacity: 0;
+  padding-top: 80px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.team-grid .item:hover .cover {
+  opacity: 1;
+  backdrop-filter: blur(3px);
+  // filter: blur(4px);
+  transition: 0.5s ease;
+}
+
+.team-grid .item .name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.team-grid .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #bbd8fb;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.team-grid .social {
+  font-size: 18px;
+}
+
+.team-grid .social a {
+  color: inherit;
+  margin: 0 10px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.team-grid .social a:hover {
+  opacity: 1;
+}
+
 //////////////// MEDIA ////////////////
 @media (max-width: 768px) {
   .navbar-brand {
