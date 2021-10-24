@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Particles from "react-particles-js";
 import Portfolio from "./components/Portfolio";
+import Contacts from "./components/Contacts";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
       <Services />
       <Experience />
       <Portfolio />
+      <Contacts />
     </React.Fragment>
   );
 };
