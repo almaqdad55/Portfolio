@@ -10,6 +10,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import Portfolio from "./components/Portfolio";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -40,7 +41,8 @@ const App = () => {
       <Services />
       <Experience />
       <Portfolio />
-      <Contacts />
+      {/* <Contacts /> */}
+      <Footer />
     </React.Fragment>
   );
 };
