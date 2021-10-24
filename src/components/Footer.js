@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <div className="row px-3">
+        <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
               <p> Magill, Adelaide, South Australia</p>
